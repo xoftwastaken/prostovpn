@@ -1,0 +1,22 @@
+# Robots.txt for просто впн. VPN Service
+# This file controls search engine crawler access
+
+# Block all bots from crawling specific directories
+User-agent: *
+Disallow: /admin/
+Disallow: /css/
+Disallow: /js/
+Disallow: /images/
+
+# Allow crawling of all other content
+Allow: /
+
+# Allow specific bots for analytics and monitoring
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Sitemap reference (add this if you have a sitemap)
+# Sitemap: https://example.com/sitemap.xml
