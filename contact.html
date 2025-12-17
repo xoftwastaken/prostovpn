@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты - просто впн.</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <img src="images/logo.png" alt="просто впн" class="logo-icon">
+                просто впн.
+            </a>
+            <div class="nav-links">
+                <a href="index.html" class="nav-link">Главная</a>
+                <a href="about.html" class="nav-link">О сервисе</a>
+                <a href="pricing.html" class="nav-link">Тарифы</a>
+                <a href="https://telegra.ph/INSTRUKCIYA-PO-USTANOVKI-VPN-07-19" target="_blank" rel="noopener noreferrer" class="nav-link">Инструкция</a>
+                <a href="contact.html" class="nav-link active">Контакты</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="main">
+        <div class="container">
+            <h1 class="page-title">Контакты</h1>
+
+            <div class="contact-grid">
+                <div class="contact-left">
+                    <section class="contact-info">
+                        <h3 class="contact-section-title">Свяжитесь со мной</h3>
+                        <div class="contact-links">
+                            <a href="https://t.me/shpatelenko" target="_blank" rel="noopener noreferrer" class="contact-link">
+                                <img src="images/telegram.png" alt="Telegram" class="contact-icon">
+                                <div>
+                                    <p class="contact-link-title">Telegram</p>
+                                    <p class="contact-link-text">@shpatelenko</p>
+                                </div>
+                            </a>
+                            <a href="https://github.com/xoftwastaken" target="_blank" rel="noopener noreferrer" class="contact-link">
+                                <img src="images/github.png" alt="GitHub" class="contact-icon">
+                                <div>
+                                    <p class="contact-link-title">GitHub</p>
+                                    <p class="contact-link-text">xoftwastaken</p>
+                                </div>
+                            </a>
+                        </div>
+                    </section>
+
+                    <section class="vpn-purchase">
+                        <h3 class="vpn-purchase-title">Покупка VPN</h3>
+                        <p class="vpn-purchase-text">Для покупки используйте наш Telegram-бот:</p>
+                        <a href="https://t.me/bytie_vpnbot" target="_blank" rel="noopener noreferrer" class="button button-primary">@bytie_vpnbot</a>
+                    </section>
+                </div>
+
+                <div class="contact-right">
+                    <section class="contact-form-section">
+                        <h3 class="contact-form-title">
+                            <img src="images/message.png" alt="Сообщение" class="form-icon">
+                            Форма обратной связи
+                        </h3>
+                        <form class="contact-form" id="contactForm">
+                            <div class="form-group">
+                                <label for="name" class="form-label">Имя</label>
+                                <input type="text" id="name" name="name" class="form-input" placeholder="Ваше имя" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" id="email" name="email" class="form-input" placeholder="your@email.com" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message" class="form-label">Сообщение</label>
+                                <textarea id="message" name="message" rows="5" class="form-textarea" placeholder="Ваше сообщение..." required></textarea>
+                            </div>
+                            <button type="submit" class="button button-primary form-button">Отправить</button>
+                        </form>
+                        <div id="formStatus" class="form-status"></div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h3 class="footer-title">просто впн.</h3>
+                    <p class="footer-text">Надёжный VPN-сервис для вашей безопасности в интернете</p>
+                </div>
+                <div class="footer-section">
+                    <h3 class="footer-title">Ссылки</h3>
+                    <div class="footer-links">
+                        <a href="about.html">О сервисе</a>
+                        <a href="pricing.html">Тарифы</a>
+                        <a href="https://telegra.ph/INSTRUKCIYA-PO-USTANOVKI-VPN-07-19" target="_blank" rel="noopener noreferrer">Инструкция</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3 class="footer-title">Контакты</h3>
+                    <div class="footer-links">
+                        <a href="https://t.me/shpatelenko" target="_blank" rel="noopener noreferrer">Telegram: @shpatelenko</a>
+                        <a href="https://github.com/xoftwastaken" target="_blank" rel="noopener noreferrer">GitHub: xoftwastaken</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
