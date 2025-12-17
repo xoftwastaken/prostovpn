@@ -1,5 +1,4 @@
 User-agent: *
-Disallow: /admin/
 Disallow: /css/
 Disallow: /js/
 Disallow: /images/
@@ -14,5 +13,6 @@ Allow: /
 
 Host: https://xoftwastaken.github.io/prostovpn/
 Sitemap: https://xoftwastaken.github.io/prostovpn/sitemap.xml
+
 
 
