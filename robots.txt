@@ -19,4 +19,5 @@ User-agent: Bingbot
 Allow: /
 
 # Sitemap reference (add this if you have a sitemap)
-# Sitemap: https://example.com/sitemap.xml
+# Sitemap: https://xoftwastaken.github.io/prostovpn/sitemap.xml
+
