@@ -11,8 +11,8 @@ Allow: /
 User-agent: Bingbot
 Allow: /
 
-Host: https://xoftwastaken.github.io/prostovpn/
 Sitemap: https://xoftwastaken.github.io/prostovpn/sitemap.xml
+
 
 
 
